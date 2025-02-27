@@ -1,0 +1,73 @@
+import React from 'react'
+
+function Pricing() {
+    return (
+        <div className='relative min-h-[1228px] z-[1000]'>
+            <div className='bg-[#EF2A82] relative min-h-[1225px] z-[500] [clip-path:polygon(0%_25%,100%_0%,100%_100%,0%_100%)] pt-6 border-b border-[#172755]'>
+                <div className='bg-[#172755] min-h-[1225px] relative [clip-path:polygon(0%_25%,100%_0%,100%_100%,0%_100%)]'>
+                    <div className='text-center pt-[272px]'>
+                        <h1 className='font-bold text-[40px] leading-[47px] text-white'>Pricing Plans</h1>
+                        <h3 className='text-[#8794BA] font-normal text-[18px] leading-[27px] mt-[30px]'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet <br /> volutpat pellentesque volutpat est.
+                        </h3>
+                    </div>
+                    <div className='mx-auto px-[210px] mt-[80px] relative'>
+                        <div className='grid grid-cols-3 gap-[80px] relative '>
+                            <div className='bg-[#0F1F4B] rounded-[30px] h-[440px] flex flex-col items-center justify-center'>
+                                <h2 className='font-bold text-[30px] leading-[36px] text-white'>Starter</h2>
+                                <h3 className='mt-[10px] font-normal text-[18px] leading-[27px] text-[#8794BA]'>up to 3 users</h3>
+                                <div className='h-[1px] border-[#2A407C] bg-[#2A407C] w-1/2 mt-[36px]'></div>
+                                <h1 className='font-bold text-[60px] leading-[70px] text-white mt-[28px]'><span className='font-bold text-[30px] leading-[35px]'>$</span>29</h1>
+                                <h3 className='font-normal text-[18px] leading-[27px] text-[#8794BA]'>per month</h3>
+                                <button className='border border-[#2A407C] mt-[40px] font-normal text-[16px] leading-[19px] px-[80px] py-[16px] rounded-[30px] text-white'>Order</button>
+                            </div>
+                            <div className='bg-[#FFF] rounded-[30px] h-[440px] flex flex-col items-center justify-center relative z-[600]'>
+                                <h2 className='font-bold text-[30px] leading-[36px] text-[#172755]'>Standard</h2>
+                                <h3 className='mt-[10px] font-normal text-[18px] leading-[27px] text-[#8794BA]'>up to 20 users</h3>
+                                <div className='h-[1px] border-[#2A407C] bg-[#D3D9E9] w-1/2 mt-[36px]'></div>
+                                <h1 className='font-bold text-[60px] leading-[70px] text-[#172755] mt-[28px]'><span className='font-bold text-[30px] leading-[35px]'>$</span>99</h1>
+                                <h3 className='font-normal text-[18px] leading-[27px] text-[#8794BA]'>per month</h3>
+                                <button className='bg-[#EF2A82] mt-[40px] font-normal text-[16px] leading-[19px] px-[80px] py-[16px] rounded-[30px] text-white'>Order</button>
+                            </div>
+                            <div className='bg-[#0F1F4B] rounded-[30px] h-[440px] flex flex-col items-center justify-center'>
+                                <h2 className='font-bold text-[30px] leading-[36px] text-white'>Premium</h2>
+                                <h3 className='mt-[10px] font-normal text-[18px] leading-[27px] text-[#8794BA]'>up to 200 users</h3>
+                                <div className='h-[1px] border-[#2A407C] bg-[#2A407C] w-1/2 mt-[36px]'></div>
+                                <h1 className='font-bold text-[60px] leading-[70px] text-white mt-[28px]'><span className='font-bold text-[30px] leading-[35px]'>$</span>299</h1>
+                                <h3 className='font-normal text-[18px] leading-[27px] text-[#8794BA]'>per month</h3>
+                                <button className='border border-[#2A407C] mt-[40px] font-normal text-[16px] leading-[19px] px-[80px] py-[16px] rounded-[30px] text-white'>Order</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="/Pricing-icon.png" className='absolute bottom-0 right-0 z-[200]' />
+                    <footer className='mt-[100px] px-[210px]'>
+                        <div className='border-t border-[#2A407C]'>
+                            <div className='mt-[70px] flex justify-between'>
+                                <div>
+                                    <img src='/footer-logo.png'/>
+                                </div>
+                                <div>
+                                    <ul className='flex space-x-9 font-normal text-[14px] text-[#8794BA] leading-[16px]'>
+                                        <li>Product</li>
+                                        <li>Pricing Plans</li>
+                                        <li>FAQ</li>
+                                        <li>Blog</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul className='flex space-x-[40px]'>
+                                        <li><img src="/Facebook.svg"/></li>
+                                        <li><img src="/Twitter.svg"/></li>
+                                        <li><img src="/Instagram.svg" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Pricing
