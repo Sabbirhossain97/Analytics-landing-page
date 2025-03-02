@@ -6,7 +6,7 @@ import Pricing from './components/Pricing/Pricing'
 
 function App() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Hero/>
       <FeatureItems/>
       <FeatureDescriptions/>
